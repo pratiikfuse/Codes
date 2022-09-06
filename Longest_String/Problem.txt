@@ -1,0 +1,39 @@
+Write a program to get the longest string from the list which starts with the given character.Assume that input comparison is done irrespective of case. ie case insensitive.
+
+
+
+Include a class UserProgramCode with a static method getLongestString which accepts a String list and a character. The return type is a string.
+
+
+Create a Class Program which would be used to accept the size of the string list, the list elements and the search character and calls the static method present in UserProgramCode.
+
+
+
+In getLongestString
+If there is no element found list, then return the string "No elements found "
+Only alphabets should be given in the list. Otherwise return the string, "String contains non alphabetic characters. "
+3.I f the two or more strings start with the given character ,the longest string should be returned. Assume that the longest string will be unique.
+
+
+Input Output format
+First line points to the size of the string list as n. The next n lines points to elements of the string list. The last input points to the character.
+Output consists of a string.
+
+
+SAMPLE INPUT 1:
+4
+Yellow Red Black Blue
+b
+SAMPLE OUTPUT 1:
+Black
+
+
+SAMPLE INPUT 2:
+3
+Black White
+
+
+45
+W
+SAMPLE OUTPUT 2:
+String contains non alphabetic characters.
