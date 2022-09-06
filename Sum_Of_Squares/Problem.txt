@@ -1,0 +1,44 @@
+Write a program to find the sum of the squares of first n natural numbers. If n less than 0, return -1.
+
+
+Include a class UserProgramCode with a static method sumSquare which accepts an integer. The return type is an integer as given in the above statement.
+
+
+Create a Class Program which would be used to accept Input and call the static method present in UserProgramCode.
+
+
+Input and Output Format:
+
+
+Input consists of the value n.
+
+
+Output consists of a integer as mentioned in the problem statement.
+
+
+Refer sample output for formatting specifications.
+
+
+
+Sample Input 1:
+
+
+3
+
+
+Sample Output 1:
+
+
+14
+
+
+Sample Input 2:
+
+
+-5
+
+
+Sample Output 2:
+
+
+-1
