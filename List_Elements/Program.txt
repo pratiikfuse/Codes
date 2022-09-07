@@ -1,0 +1,64 @@
+Write a program that accepts integer list and an integer. List all the elements in the list that are greater than the value of given integer. Print the result in descending order.
+
+
+Example:
+input1: [1,4,7,3,9,15,24]
+input2: 17
+
+
+Output1:[24]
+
+
+Include a class UserProgramCode with static method GetElements() which accepts an integer list and the integer as input and returns an integer list.
+If there is no element found in input1, then store -1 to the first element of output list.
+
+
+Create a class Program which would get the input and call the static method GetElements() present in the UserProgramCode. If there is no such element in the input list, print "No element found".
+
+
+Input and Output Format:
+Input consists of n+2 integers. The first integer corresponds to n, the number of elements in the array. The next 'n' integers correspond to the elements in the array.
+
+
+The last input is an integer.
+
+
+Output is an integer list or the string "No element found".
+
+
+
+
+Sample Input 1:
+7
+1
+4
+7
+3
+9
+15
+24
+
+
+17
+
+
+Sample Output 1:
+24
+
+
+Sample Input 2:
+6
+5
+9
+3
+4
+16
+21
+9
+
+
+Sample Output 2:
+21
+16
+
+
