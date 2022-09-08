@@ -1,0 +1,13 @@
+Write a program which will return count of special characters in given String and the String after removing special characters
+
+create "UserProgramCode" class to implement logic 
+create 2 static method as "getCount()" and "getString()" 
+getCOunt will return Count of Special characters and getString will return pure String with no special characters
+
+input : Demo#
+output : 1 (After Calling getCOunt)
+         Demo (After calling getString)
+
+
+
+getCount should return -1 if there is no special character in String.
