@@ -1,0 +1,7 @@
+write a program which will accept one array from user and will returrn the array sorting the array in such a way even elements will come before and then odd elements
+
+input : size = 6 , {2,3,5,6,8,7}
+output : {2,6,8,3,5,7}
+
+input : n =  1 , Array : {1}
+output : 1
