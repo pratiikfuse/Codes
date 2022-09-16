@@ -1,0 +1,7 @@
+write a program to take String from user and display the count ofoccurance
+of each word 
+
+input : Demo hello Demo hello world
+output : [demo=2,hello=2,world=1]
+
+
